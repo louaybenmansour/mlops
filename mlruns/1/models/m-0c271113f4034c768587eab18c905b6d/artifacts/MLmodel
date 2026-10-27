@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Asus/Downloads/mlops-master/mlops-master/mlruns/1/models/m-0c271113f4034c768587eab18c905b6d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.2
+model_id: m-0c271113f4034c768587eab18c905b6d
+model_size_bytes: 1804767
+model_uuid: m-0c271113f4034c768587eab18c905b6d
+prompts: null
+run_id: 857748e4c94841d79404ffd6df58a38f
+utc_time_created: '2026-10-27 08:47:59.758955'
